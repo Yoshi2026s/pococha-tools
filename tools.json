@@ -172,12 +172,12 @@
           "caption": "街での探索"
         },
         {
-          "src": "assets/thumbnails/quest-02.webp",
-          "caption": "仲間のステータス"
+          "src": "assets/thumbnails/quest-battle-monsters.webp",
+          "caption": "モンスター2体との戦闘"
         },
         {
-          "src": "assets/thumbnails/quest-03.webp",
-          "caption": "仲間の能力比較"
+          "src": "assets/thumbnails/quest-battle-training.webp",
+          "caption": "実技チャレンジの戦闘"
         },
         {
           "src": "assets/thumbnails/quest-04.webp",
