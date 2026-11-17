@@ -1,23 +1,24 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="description" content="配信も、応援も、もっと楽しく。Yoshi2026sのPococha関連ツールをまとめました。">
 <meta name="theme-color" content="#fff9f3"><title>ポコツール広場 | Yoshi2026s</title>
-<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=5"><script src="app.js?v=5" defer></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=6"><script src="app.js?v=6" defer></script>
 </head>
 <body>
 <a class="skip" href="#tools">ツール一覧へ</a>
 <header class="site-header wrap"><a class="brand" href="./"><span class="brand-icon" aria-hidden="true">P<span>✦</span></span><span>ポコツール広場<small>by Yoshi2026s</small></span></a><a class="admin-link" href="admin.html">管理者 <span aria-hidden="true">↗</span></a></header>
 <main class="wrap">
 <section class="hero" aria-labelledby="hero-title">
-<div class="hero-copy"><p class="eyebrow"><span></span> YOUR POCOCHA TOOLBOX</p><h1 id="hero-title">配信も、応援も。<br><span>もっと楽しく。</span></h1><p class="intro">いつものPocochaに、ちょっと便利をプラス。<br>探す・記録する・遊ぶ。あなたにぴったりのツールを。</p><a class="primary" href="#tools">ツールを見つける <span aria-hidden="true">↓</span></a></div>
+<div class="hero-copy"><p class="eyebrow"><span></span> YOUR POCOCHA TOOLBOX</p><h1 id="hero-title">配信も、応援も。<br><span>もっと楽しく。</span></h1><p class="intro">Pocochaの便利なツールを、ひとまとめ。</p><a class="primary" href="#tools">ツールを見つける <span aria-hidden="true">↓</span></a></div>
 <div class="hero-art" aria-hidden="true"><div class="orbit"></div><span class="spark s1">✦</span><span class="spark s2">✧</span><span class="art-tile tile-chart">📊</span><span class="art-tile tile-game">🎮</span><span class="art-tile tile-chat">💬</span><div class="center-bubble">P<span>♡</span></div><span class="art-caption">毎日の「好き」を、応援。</span></div>
 </section>
-<section id="tools" class="tools-section" aria-labelledby="tools-title"><div class="section-heading"><div><p class="eyebrow">FIND YOUR FAVORITE</p><h2 id="tools-title">ツール一覧<span id="count" class="count"></span></h2></div><p>画像は左右にスワイプ・ボタンからツールへ <span aria-hidden="true">↗</span></p></div>
-<div class="toolbar"><div class="filters" role="group" aria-label="カテゴリで絞り込み"><button type="button" class="filter active" aria-pressed="true" data-category="すべて">すべて</button><button type="button" class="filter" aria-pressed="false" data-category="配信・応援">配信・応援</button><button type="button" class="filter" aria-pressed="false" data-category="調べる">調べる</button><button type="button" class="filter" aria-pressed="false" data-category="遊ぶ">遊ぶ</button></div><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="ツールを検索" placeholder="ツールを検索"></label></div>
+<section id="tools" class="tools-section" aria-labelledby="tools-title"><div class="section-heading"><div><p class="eyebrow">FIND YOUR FAVORITE</p><h2 id="tools-title">ツール一覧<span id="count" class="count" aria-live="polite"></span></h2></div><p>画像をタップで拡大・左右にスワイプで切り替え</p></div>
+<div class="toolbar"><div class="search-row"><label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" aria-label="ツール名・用途で検索" placeholder="ツールを検索" enterkeyhint="search" autocomplete="off"></label><label class="jump"><span class="sr-only">ツールへ直接移動</span><select id="tool-jump" aria-label="ツールへ直接移動"><option value="">ツールへ移動</option></select></label></div><div class="filters" role="group" aria-label="カテゴリで絞り込み"><button type="button" class="filter active" aria-pressed="true" data-category="すべて">すべて</button><button type="button" class="filter" aria-pressed="false" data-category="配信・応援">配信・応援</button><button type="button" class="filter" aria-pressed="false" data-category="調べる">調べる</button><button type="button" class="filter" aria-pressed="false" data-category="遊ぶ">遊ぶ</button></div></div>
 <p id="status" class="status" role="status">ツールを読み込んでいます…</p><div id="grid" class="grid"></div><button id="retry" class="secondary" hidden>もう一度読み込む</button><noscript><p>ツール一覧の表示にはJavaScriptを有効にしてください。</p></noscript>
 </section>
-<aside class="note"><span aria-hidden="true">♡</span><div><strong>あなたの配信ライフを、ちょっと豊かに。</strong><p>各ツールの画像は左右にスワイプできます。名前・記録は架空のデモデータです。</p></div></aside>
+<aside class="note"><span aria-hidden="true">♡</span><div><strong>あなたの配信ライフを、ちょっと豊かに。</strong><p>画像をタップすると拡大できます。左右にスワイプして、いろいろな画面を見てみよう。名前・記録は架空のデモデータです。</p></div></aside>
 </main><footer class="wrap footer"><p>© Yoshi2026s · ポコツール広場</p><p>Pococha非公式のファン制作ツール集です。</p><a href="https://github.com/Yoshi2026s/pococha-tools" target="_blank" rel="noopener noreferrer">GitHub ↗</a></footer>
+<dialog id="preview-dialog" class="preview-dialog" aria-labelledby="viewer-title" aria-describedby="viewer-caption"><div class="viewer-shell"><div class="viewer-heading"><h2 id="viewer-title">画面プレビュー</h2><button id="viewer-close" type="button" class="viewer-close" autofocus>閉じる <span aria-hidden="true">×</span></button></div><div id="viewer-canvas" class="viewer-canvas" tabindex="0" aria-label="拡大画像。拡大後は上下左右にスクロールできます"><img id="viewer-image" alt="" width="800" height="450"></div><div class="viewer-zoom" role="group" aria-label="画像の表示倍率"><button id="viewer-zoom-out" type="button" aria-label="画像を縮小">−</button><output id="viewer-zoom-level" aria-live="polite">100%</output><button id="viewer-zoom-in" type="button" aria-label="画像を拡大">＋</button><p>拡大後は画像を指で動かせます</p></div><div class="viewer-navigation"><button id="viewer-previous" type="button" aria-label="前の拡大画像">‹ 前へ</button><p id="viewer-caption" aria-live="polite" aria-atomic="true"></p><button id="viewer-next" type="button" aria-label="次の拡大画像">次へ ›</button></div><p id="viewer-demo" class="viewer-demo" hidden>名前・記録は架空のデモデータです</p></div></dialog>
 </body></html>
