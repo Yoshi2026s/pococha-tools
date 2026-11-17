@@ -1,10 +1,64 @@
 {
   "tools": [
-    {"id":"meter","icon":"📊","name":"ポコメーター番長","description":"目標メーターと残りアイテムの目安を確認","category":"配信・応援","url":"https://yoshi2026s.github.io/poco-meter/","public":true},
-    {"id":"challenge","icon":"📝","name":"ぽこチャレ先生","description":"月別のオープン・ファミリー解答をチェック","category":"調べる","url":"https://pococha-challenge.freefreelife2000.chatgpt.site/","public":true},
-    {"id":"library","icon":"💬","name":"ポコ図鑑","description":"キラコメ・定期コメント・タグを探せる","category":"調べる","url":"https://pococha-comment-library.freefreelife2000.chatgpt.site/","public":true},
-    {"id":"quest","icon":"🎮","name":"ポコチャクエスト","description":"Pocochaを題材にしたRPGで遊べる","category":"遊ぶ","url":"https://yoshi2026s.github.io/toplivermichi-kyushu/","public":true},
-    {"id":"railway","icon":"🚃","name":"ポコチャ電鉄","description":"Pocochaを題材にした電鉄ゲームで遊べる","category":"遊ぶ","url":"https://yoshi2026s.github.io/pococha-dentetsu/","public":true},
-    {"id":"log","icon":"📒","name":"ポコログ","description":"視聴時間と応援の記録をまとめられる","category":"配信・応援","url":"https://yoshi2026s.github.io/pocolog/","public":true}
+    {
+      "id": "meter",
+      "icon": "📊",
+      "name": "ポコメーター番長",
+      "description": "目標メーターと残りアイテムの目安を確認",
+      "category": "配信・応援",
+      "url": "https://yoshi2026s.github.io/poco-meter/",
+      "public": true,
+      "thumbnail": "assets/thumbnails/meter.webp"
+    },
+    {
+      "id": "challenge",
+      "icon": "📝",
+      "name": "ぽこチャレ先生",
+      "description": "月別のオープン・ファミリー解答をチェック",
+      "category": "調べる",
+      "url": "https://pococha-challenge.freefreelife2000.chatgpt.site/",
+      "public": true,
+      "thumbnail": "assets/thumbnails/challenge.webp"
+    },
+    {
+      "id": "library",
+      "icon": "💬",
+      "name": "ポコ図鑑",
+      "description": "キラコメ・定期コメント・タグを探せる",
+      "category": "調べる",
+      "url": "https://pococha-comment-library.freefreelife2000.chatgpt.site/",
+      "public": true,
+      "thumbnail": "assets/thumbnails/library.webp"
+    },
+    {
+      "id": "quest",
+      "icon": "🎮",
+      "name": "ポコチャクエスト",
+      "description": "Pocochaを題材にしたRPGで遊べる",
+      "category": "遊ぶ",
+      "url": "https://yoshi2026s.github.io/toplivermichi-kyushu/",
+      "public": true,
+      "thumbnail": "assets/thumbnails/quest.webp"
+    },
+    {
+      "id": "railway",
+      "icon": "🚃",
+      "name": "ポコチャ電鉄",
+      "description": "Pocochaを題材にした電鉄ゲームで遊べる",
+      "category": "遊ぶ",
+      "url": "https://yoshi2026s.github.io/pococha-dentetsu/",
+      "public": true,
+      "thumbnail": "assets/thumbnails/railway.webp"
+    },
+    {
+      "id": "log",
+      "icon": "📒",
+      "name": "ポコログ",
+      "description": "視聴時間と応援の記録をまとめられる",
+      "category": "配信・応援",
+      "url": "https://yoshi2026s.github.io/pocolog/",
+      "public": true,
+      "thumbnail": "assets/thumbnails/log.webp"
+    }
   ]
 }

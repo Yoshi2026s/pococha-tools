@@ -18,6 +18,15 @@ function render() {
     card.className = 'card'; card.dataset.id = tool.id;
     card.href = tool.url; card.target = '_blank'; card.rel = 'noopener noreferrer';
     card.setAttribute('aria-label', `${tool.icon} ${tool.name}（新しいタブで開く）`);
+    const preview = document.createElement('div'); preview.className = 'card-preview';
+    if (typeof tool.thumbnail === 'string' && /^assets\/thumbnails\/[a-z]+\.webp$/.test(tool.thumbnail)) {
+      const image = document.createElement('img');
+      image.src = tool.thumbnail; image.alt = `${tool.name}の画面の一部`;
+      image.width = 800; image.height = 450; image.loading = grid.children.length === 0 ? 'eager' : 'lazy'; image.decoding = 'async';
+      image.addEventListener('error', () => {image.hidden = true; preview.classList.add('preview-unavailable');});
+      preview.append(image);
+    }
+    const content = document.createElement('div'); content.className = 'card-content';
     const top = document.createElement('div'); top.className = 'card-top';
     const icon = document.createElement('span'); icon.className = 'tool-icon'; icon.textContent = tool.icon; icon.setAttribute('aria-hidden', 'true');
     const badge = document.createElement('span'); badge.className = 'category'; badge.textContent = tool.category;
@@ -27,7 +36,7 @@ function render() {
     const bottom = document.createElement('div'); bottom.className = 'card-bottom';
     const label = document.createElement('span'); label.textContent = 'ツールを開く';
     const arrow = document.createElement('span'); arrow.textContent = '↗'; arrow.setAttribute('aria-hidden', 'true');
-    bottom.append(label, arrow); card.append(top, title, desc, bottom); grid.append(card);
+    bottom.append(label, arrow); content.append(top, title, desc, bottom); card.append(preview, content); grid.append(card);
   }
 }
 async function load() {
