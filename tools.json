@@ -25,6 +25,30 @@
         {
           "src": "assets/thumbnails/meter-04.webp",
           "caption": "ボーダーの一覧検索"
+        },
+        {
+          "src": "assets/thumbnails/meter-05.webp",
+          "caption": "的中率カレンダー"
+        },
+        {
+          "src": "assets/thumbnails/meter-06.webp",
+          "caption": "アイテムの換算条件"
+        },
+        {
+          "src": "assets/thumbnails/meter-07.webp",
+          "caption": "残り時間と必要ペース"
+        },
+        {
+          "src": "assets/thumbnails/meter-08.webp",
+          "caption": "目標の詳細設定"
+        },
+        {
+          "src": "assets/thumbnails/meter-09.webp",
+          "caption": "5つの算出方法を比較"
+        },
+        {
+          "src": "assets/thumbnails/meter-10.webp",
+          "caption": "統計とボーダー推移"
         }
       ]
     },
@@ -40,19 +64,43 @@
       "previews": [
         {
           "src": "assets/thumbnails/challenge-01.webp",
-          "caption": "月別の解答画面"
+          "caption": "月と開催種類を選ぶ"
         },
         {
-          "src": "assets/thumbnails/challenge-02.webp",
-          "caption": "オープン・ファミリー解答"
+          "src": "assets/thumbnails/challenge-feature-02.webp",
+          "caption": "オープン部門の解答"
         },
         {
-          "src": "assets/thumbnails/challenge-03.webp",
-          "caption": "10月の解答例"
+          "src": "assets/thumbnails/challenge-feature-03.webp",
+          "caption": "ファミリー部門の解答"
         },
         {
-          "src": "assets/thumbnails/challenge-04.webp",
-          "caption": "9月の解答例"
+          "src": "assets/thumbnails/challenge-feature-04.webp",
+          "caption": "解答をまとめてコピー"
+        },
+        {
+          "src": "assets/thumbnails/challenge-feature-05.webp",
+          "caption": "端末用メモで編集（サンプル）"
+        },
+        {
+          "src": "assets/thumbnails/challenge-feature-06.webp",
+          "caption": "メモの書き出し・読み込み"
+        },
+        {
+          "src": "assets/thumbnails/challenge-feature-07.webp",
+          "caption": "文字・配色の設定"
+        },
+        {
+          "src": "assets/thumbnails/challenge-feature-08.webp",
+          "caption": "URL共有・ブラウザーで開く"
+        },
+        {
+          "src": "assets/thumbnails/challenge-feature-09.webp",
+          "caption": "過去の月の解答"
+        },
+        {
+          "src": "assets/thumbnails/challenge-feature-10.webp",
+          "caption": "ホーム画面に追加"
         }
       ]
     },
@@ -81,6 +129,30 @@
         {
           "src": "assets/thumbnails/library-04.webp",
           "caption": "キーワード検索"
+        },
+        {
+          "src": "assets/thumbnails/library-feature-05.webp",
+          "caption": "文章を編集してコピー"
+        },
+        {
+          "src": "assets/thumbnails/library-feature-06.webp",
+          "caption": "Simejiへの登録案内"
+        },
+        {
+          "src": "assets/thumbnails/library-feature-07.webp",
+          "caption": "コメント用メモ（サンプル）"
+        },
+        {
+          "src": "assets/thumbnails/library-feature-08.webp",
+          "caption": "お気に入りの整理"
+        },
+        {
+          "src": "assets/thumbnails/library-feature-09.webp",
+          "caption": "文字・配色の設定"
+        },
+        {
+          "src": "assets/thumbnails/library-feature-10.webp",
+          "caption": "推し設定と文章への反映"
         }
       ]
     },
@@ -110,6 +182,30 @@
         {
           "src": "assets/thumbnails/quest-04.webp",
           "caption": "街外の冒険"
+        },
+        {
+          "src": "assets/thumbnails/quest-05.webp",
+          "caption": "全国の旅の地図"
+        },
+        {
+          "src": "assets/thumbnails/quest-06.webp",
+          "caption": "持ち物と回復アイテム"
+        },
+        {
+          "src": "assets/thumbnails/quest-07.webp",
+          "caption": "装備の提案と比較"
+        },
+        {
+          "src": "assets/thumbnails/quest-08.webp",
+          "caption": "戦闘メンバーの編成"
+        },
+        {
+          "src": "assets/thumbnails/quest-09.webp",
+          "caption": "ペットの同行・状態"
+        },
+        {
+          "src": "assets/thumbnails/quest-10.webp",
+          "caption": "冒険の目標と依頼"
         }
       ]
     },
@@ -139,6 +235,30 @@
         {
           "src": "assets/thumbnails/railway-04.webp",
           "caption": "分かれ道を選ぶ"
+        },
+        {
+          "src": "assets/thumbnails/railway-05.webp",
+          "caption": "ポコチャレの進み具合"
+        },
+        {
+          "src": "assets/thumbnails/railway-06.webp",
+          "caption": "時間帯・天気の効果"
+        },
+        {
+          "src": "assets/thumbnails/railway-07.webp",
+          "caption": "架空プレイヤーの詳細"
+        },
+        {
+          "src": "assets/thumbnails/railway-08.webp",
+          "caption": "おすすめルートの提案"
+        },
+        {
+          "src": "assets/thumbnails/railway-09.webp",
+          "caption": "駅の物件一覧"
+        },
+        {
+          "src": "assets/thumbnails/railway-10.webp",
+          "caption": "移動後の熊本周辺"
         }
       ]
     },
@@ -168,6 +288,30 @@
         {
           "src": "assets/thumbnails/log-04.webp",
           "caption": "視聴日数・時間の一覧"
+        },
+        {
+          "src": "assets/thumbnails/log-05.webp",
+          "caption": "配信者名の検索"
+        },
+        {
+          "src": "assets/thumbnails/log-06.webp",
+          "caption": "応援者名の検索"
+        },
+        {
+          "src": "assets/thumbnails/log-07.webp",
+          "caption": "アカウント別の日数・時間"
+        },
+        {
+          "src": "assets/thumbnails/log-08.webp",
+          "caption": "目標と実績の個別管理"
+        },
+        {
+          "src": "assets/thumbnails/log-09.webp",
+          "caption": "視聴時刻から記録"
+        },
+        {
+          "src": "assets/thumbnails/log-10.webp",
+          "caption": "必要コインの集計"
         }
       ]
     }

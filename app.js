@@ -8,7 +8,7 @@ const galleryObservers = [];
 function normalized(text) { return text.normalize('NFKC').toLowerCase().replace(/[ァ-ヶ]/g, c => String.fromCharCode(c.charCodeAt(0) - 0x60)); }
 function makePreview(tool, eager) {
   const allowed = path => typeof path === 'string' && /^assets\/thumbnails\/[a-z0-9-]+\.webp$/.test(path);
-  let pictures = Array.isArray(tool.previews) ? tool.previews.filter(p => p && allowed(p.src)).slice(0, 5) : [];
+  let pictures = Array.isArray(tool.previews) ? tool.previews.filter(p => p && allowed(p.src)).slice(0, 10) : [];
   if (!pictures.length && allowed(tool.thumbnail)) pictures = [{src:tool.thumbnail, caption:'画面プレビュー'}];
   const preview = document.createElement('div'); preview.className = 'card-preview';
   if (!pictures.length) return preview;
