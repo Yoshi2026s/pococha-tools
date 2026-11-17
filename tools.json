@@ -8,7 +8,25 @@
       "category": "配信・応援",
       "url": "https://yoshi2026s.github.io/poco-meter/",
       "public": true,
-      "thumbnail": "assets/thumbnails/meter.webp"
+      "thumbnail": "assets/thumbnails/meter.webp",
+      "previews": [
+        {
+          "src": "assets/thumbnails/meter-01.webp",
+          "caption": "目標メーター"
+        },
+        {
+          "src": "assets/thumbnails/meter-02.webp",
+          "caption": "必要アイテムと予想"
+        },
+        {
+          "src": "assets/thumbnails/meter-03.webp",
+          "caption": "ボーダーカレンダー"
+        },
+        {
+          "src": "assets/thumbnails/meter-04.webp",
+          "caption": "ボーダーの一覧検索"
+        }
+      ]
     },
     {
       "id": "challenge",
@@ -18,7 +36,25 @@
       "category": "調べる",
       "url": "https://pococha-challenge.freefreelife2000.chatgpt.site/",
       "public": true,
-      "thumbnail": "assets/thumbnails/challenge.webp"
+      "thumbnail": "assets/thumbnails/challenge.webp",
+      "previews": [
+        {
+          "src": "assets/thumbnails/challenge-01.webp",
+          "caption": "月別の解答画面"
+        },
+        {
+          "src": "assets/thumbnails/challenge-02.webp",
+          "caption": "オープン・ファミリー解答"
+        },
+        {
+          "src": "assets/thumbnails/challenge-03.webp",
+          "caption": "10月の解答例"
+        },
+        {
+          "src": "assets/thumbnails/challenge-04.webp",
+          "caption": "9月の解答例"
+        }
+      ]
     },
     {
       "id": "library",
@@ -28,7 +64,25 @@
       "category": "調べる",
       "url": "https://pococha-comment-library.freefreelife2000.chatgpt.site/",
       "public": true,
-      "thumbnail": "assets/thumbnails/library.webp"
+      "thumbnail": "assets/thumbnails/library.webp",
+      "previews": [
+        {
+          "src": "assets/thumbnails/library-01.webp",
+          "caption": "コメント・タグを探す"
+        },
+        {
+          "src": "assets/thumbnails/library-02.webp",
+          "caption": "金タグの一覧"
+        },
+        {
+          "src": "assets/thumbnails/library-03.webp",
+          "caption": "イベント用タグ"
+        },
+        {
+          "src": "assets/thumbnails/library-04.webp",
+          "caption": "キーワード検索"
+        }
+      ]
     },
     {
       "id": "quest",
@@ -39,7 +93,25 @@
       "url": "https://yoshi2026s.github.io/toplivermichi-kyushu/",
       "public": true,
       "thumbnail": "assets/thumbnails/quest-demo.webp",
-      "thumbnailDemo": true
+      "thumbnailDemo": true,
+      "previews": [
+        {
+          "src": "assets/thumbnails/quest-01.webp",
+          "caption": "街での探索"
+        },
+        {
+          "src": "assets/thumbnails/quest-02.webp",
+          "caption": "仲間のステータス"
+        },
+        {
+          "src": "assets/thumbnails/quest-03.webp",
+          "caption": "仲間の能力比較"
+        },
+        {
+          "src": "assets/thumbnails/quest-04.webp",
+          "caption": "街外の冒険"
+        }
+      ]
     },
     {
       "id": "railway",
@@ -50,7 +122,25 @@
       "url": "https://yoshi2026s.github.io/pococha-dentetsu/",
       "public": true,
       "thumbnail": "assets/thumbnails/railway-demo.webp",
-      "thumbnailDemo": true
+      "thumbnailDemo": true,
+      "previews": [
+        {
+          "src": "assets/thumbnails/railway-01.webp",
+          "caption": "ゲーム盤面"
+        },
+        {
+          "src": "assets/thumbnails/railway-02.webp",
+          "caption": "広域マップ"
+        },
+        {
+          "src": "assets/thumbnails/railway-03.webp",
+          "caption": "みんなの対戦状況"
+        },
+        {
+          "src": "assets/thumbnails/railway-04.webp",
+          "caption": "分かれ道を選ぶ"
+        }
+      ]
     },
     {
       "id": "log",
@@ -61,7 +151,25 @@
       "url": "https://yoshi2026s.github.io/pocolog/",
       "public": true,
       "thumbnail": "assets/thumbnails/pocolog-demo.webp",
-      "thumbnailDemo": true
+      "thumbnailDemo": true,
+      "previews": [
+        {
+          "src": "assets/thumbnails/log-01.webp",
+          "caption": "月目標の一覧"
+        },
+        {
+          "src": "assets/thumbnails/log-02.webp",
+          "caption": "ライバー・アカウント集計"
+        },
+        {
+          "src": "assets/thumbnails/log-03.webp",
+          "caption": "月実績の一覧"
+        },
+        {
+          "src": "assets/thumbnails/log-04.webp",
+          "caption": "視聴日数・時間の一覧"
+        }
+      ]
     }
   ]
 }
