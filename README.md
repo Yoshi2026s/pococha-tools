@@ -84,9 +84,9 @@ tools.jsonの各ツールのpreviews配列で画像のsrcとcaptionを管理し�
 
 ## ホーム画面のアイコン
 
-公開ページにはiPhone向けのapple-touch-icon（180px）と、Android向けのWeb App Manifest（192px / 512px）を設定しています。既存のPロゴをPNGへ書き出し、背景を不透明にしています。512px版は丸型などのマスクでも文字が欠けない安全領域に収めています。
+公開ページにはiPhone向けのapple-touch-icon（180px）と、Android向けのWeb App Manifest（192px / 512px）を設定しています。Yoshiの名前を大きく入れたツールボックスに、グラフとゲームのカードを組み合わせた専用アイコンです。背景は不透明で、Android用のマスク対応版は丸型などでも絵柄が欠けない安全領域に収めています。
 
-- 表示名：ポコツール（正式名：ポコツール広場）
+- 表示名：Yoshiツール（正式名：Yoshi自作ツール集）
 - 起動先・スコープ：このリポジトリの公開ページ `/pococha-tools/`
 - iPhone：Safariの共有メニューから「ホーム画面に追加」
 - Android：Chromeのメニューから「ホーム画面に追加」
