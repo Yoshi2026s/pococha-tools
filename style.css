@@ -24,3 +24,6 @@
 }
 @media(prefers-reduced-motion:reduce){.card-preview img{transition:none}.card:hover .card-preview img{transform:none}}
 @media(max-width:580px){.hero{padding:5px 0 18px}.hero .eyebrow,.hero .primary{display:none}.hero h1{font-size:28px;line-height:1.35;margin-bottom:9px}.intro{font-size:12px;line-height:1.8;margin:0}}
+
+.preview-note{position:absolute;right:8px;bottom:8px;background:#fffef0f2;color:#443a35;padding:3px 8px;border:1px solid #e7d9cc;border-radius:6px;font-size:10px;font-weight:700;line-height:1.6;box-shadow:0 1px 5px #0001}
+@media(max-width:580px){.preview-note{font-size:11px}}

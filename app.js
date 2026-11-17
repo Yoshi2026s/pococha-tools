@@ -19,12 +19,16 @@ function render() {
     card.href = tool.url; card.target = '_blank'; card.rel = 'noopener noreferrer';
     card.setAttribute('aria-label', `${tool.icon} ${tool.name}（新しいタブで開く）`);
     const preview = document.createElement('div'); preview.className = 'card-preview';
-    if (typeof tool.thumbnail === 'string' && /^assets\/thumbnails\/[a-z]+\.webp$/.test(tool.thumbnail)) {
+    if (typeof tool.thumbnail === 'string' && /^assets\/thumbnails\/[a-z]+(?:-demo)?\.webp$/.test(tool.thumbnail)) {
       const image = document.createElement('img');
-      image.src = tool.thumbnail; image.alt = `${tool.name}の画面の一部`;
+      image.src = tool.thumbnail; image.alt = tool.thumbnailDemo ? `${tool.name}のデモ画面（名前は架空）` : `${tool.name}の画面の一部`;
       image.width = 800; image.height = 450; image.loading = grid.children.length === 0 ? 'eager' : 'lazy'; image.decoding = 'async';
       image.addEventListener('error', () => {image.hidden = true; preview.classList.add('preview-unavailable');});
       preview.append(image);
+      if (tool.thumbnailDemo === true) {
+        const note = document.createElement('span'); note.className = 'preview-note';
+        note.textContent = '架空名のデモ画面'; preview.append(note);
+      }
     }
     const content = document.createElement('div'); content.className = 'card-content';
     const top = document.createElement('div'); top.className = 'card-top';

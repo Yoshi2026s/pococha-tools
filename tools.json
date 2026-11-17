@@ -38,7 +38,8 @@
       "category": "遊ぶ",
       "url": "https://yoshi2026s.github.io/toplivermichi-kyushu/",
       "public": true,
-      "thumbnail": "assets/thumbnails/quest.webp"
+      "thumbnail": "assets/thumbnails/quest-demo.webp",
+      "thumbnailDemo": true
     },
     {
       "id": "railway",
@@ -48,7 +49,8 @@
       "category": "遊ぶ",
       "url": "https://yoshi2026s.github.io/pococha-dentetsu/",
       "public": true,
-      "thumbnail": "assets/thumbnails/railway.webp"
+      "thumbnail": "assets/thumbnails/railway-demo.webp",
+      "thumbnailDemo": true
     },
     {
       "id": "log",
@@ -58,7 +60,8 @@
       "category": "配信・応援",
       "url": "https://yoshi2026s.github.io/pocolog/",
       "public": true,
-      "thumbnail": "assets/thumbnails/log.webp"
+      "thumbnail": "assets/thumbnails/log-demo.webp",
+      "thumbnailDemo": true
     }
   ]
 }
